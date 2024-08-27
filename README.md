@@ -17,6 +17,9 @@ To start with the platform, choose your role and follow the corresponding guidel
 2. **Teachers**: Use the CMS to create engaging courses, upload materials, and interact with students.
 3. **Students**: Explore various classes, subscribe to your preferred course packages, and start learning.
 
+## User Flow Overview
+![userflow](userflow.png)
+
 ## Contributing
 
 I welcome contributions! Please read our contributing guidelines before submitting any changes or suggestions.
