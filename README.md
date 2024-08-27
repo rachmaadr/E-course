@@ -18,7 +18,16 @@ To start with the platform, choose your role and follow the corresponding guidel
 3. **Students**: Explore various classes, subscribe to your preferred course packages, and start learning.
 
 ## User Flow Overview
+![UserFLow](user-flow.png)
 
+## Database Schema
+![ERD](entity.png)
+
+## Landing Page Overview
+![landing page](landingPageOverview.png)
+
+## Student Class Detail Overview
+![Detail Class](detailClass.png)
 
 ## Contributing
 
