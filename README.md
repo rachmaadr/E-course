@@ -1,4 +1,4 @@
-# Skill Enhancement Platform
+# Online Course Platform
 
 This platform helps users enhance their skills according to their interests, such as digital marketing, programming, data science, product design, and more. A professional mentor guides each class to ensure students can adapt to the needs of the industry and are ready to work after completing their studies.
 
@@ -40,7 +40,7 @@ To start with the platform, choose your role and follow the corresponding guidel
     - and start learning.
 
 ## User Flow Overview
-![UserFLow](user-flow.png)
+![UserFLow](User-Flow.png)
 
 ## Database Schema
 ![ERD](entity.png)
