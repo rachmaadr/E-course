@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
-class course extends Model
+class Course extends Model
 {
     use HasFactory, SoftDeletes;
     protected $fillable = [
@@ -32,7 +32,7 @@ class course extends Model
     }
 
     public function course_keypoints(){
-        return $this->hasMany(course_keypoint::class);
+        return $this->hasMany(CourseKeypoint::class);
     }
 
     public function course_videos(){

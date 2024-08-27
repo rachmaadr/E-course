@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
-class teacher extends Model
+class Teacher extends Model
 {
     use HasFactory, SoftDeletes;
     Protected $fillable = [
@@ -19,6 +19,6 @@ class teacher extends Model
     }
 
     public function courses(){
-        return $this->hasMany(course::class);
+        return $this->hasMany(Course::class);
     }
 }

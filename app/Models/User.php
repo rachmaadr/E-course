@@ -51,22 +51,26 @@ class User extends Authenticatable
         return $this->belongsToMany(course::class, 'course_students');
     }
 
-    public function subcription_transaction(){
-        return $this->hasMany(Subcription_Transaction::class, 'course_students');
+    public function subscribe_transaction(){
+        return $this->hasMany(SubscribeTransaction::class, 'user_id');
     }
 
     public function hasActiveSubcription(){
-        $latestSubcription = $this->subcription_transaction()
-        ->where('is_paid', true)
-        ->latest('update_at')
-        ->first();
+        // Retrieve the latest subscription transaction where the subscription is paid
+        $latestSubscription = $this->subscribe_transaction()
+            ->where('is_paid', true)
+            ->latest('updated_at')
+            ->first();
 
-        if (!$latestSubcription) {
-            # code...
+        // If there is no paid subscription transaction, return false
+        if (!$latestSubscription) {
             return false;
         }
 
-        $subcriptionEndDate = Carbon::parse($latestSubcription->subcription_start_date)->addMonth(1);
-        return Carbon::now()->lessThanOrEqualTo($subcriptionEndDate);
+        // Calculate the subscription end date based on the start date
+        $subscriptionEndDate = Carbon::parse($latestSubscription->subscription_start_date)->addMonths(1);
+
+        // Check if the current date is less than or equal to the subscription end date
+        return Carbon::now()->lessThanOrEqualTo($subscriptionEndDate);
     }
 }

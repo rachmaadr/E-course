@@ -1,0 +1,8 @@
+App\Models\SubscribeTransaction::create([
+    'user_id' => 3,
+    'total_amount' => 950000,
+    'is_paid' => false,
+    'proof' => 'proof/cek.png',
+    'created_at' => now(),
+    'updated_at' => now()
+]);

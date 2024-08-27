@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
-class course_keypoint extends Model
+class CourseKeypoint extends Model
 {
     use HasFactory, SoftDeletes;
     Protected $fillable = [
