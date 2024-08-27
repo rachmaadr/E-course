@@ -19,9 +19,7 @@ To start with the platform, choose your role and follow the corresponding guidel
 
 ## Contributing
 
-We welcome contributions! Please read our contributing guidelines before submitting any changes or suggestions.
+I welcome contributions! Please read our contributing guidelines before submitting any changes or suggestions.
 
-## License
 
-This project is licensed under the [MIT License](LICENSE).
 
