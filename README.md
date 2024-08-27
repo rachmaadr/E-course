@@ -18,7 +18,7 @@ To start with the platform, choose your role and follow the corresponding guidel
 3. **Students**: Explore various classes, subscribe to your preferred course packages, and start learning.
 
 ## User Flow Overview
-![userflow](userflow.png)
+
 
 ## Contributing
 
