@@ -51,9 +51,35 @@ To start with the platform, choose your role and follow the corresponding guidel
 ## Student Class Detail Overview
 ![Detail Class](detailClass.png)
 
+## Getting Started
+
+1. **Clone the repository**:
+    ```sh
+    git clone https://github.com/rachmaadr/EventTicketingPlatform.git
+    ```
+2. **Navigate to the project directory**:
+    ```sh
+    cd EventTicketingPlatform
+    ```
+3. **Install dependencies**:
+    ```sh
+    composer install
+    npm install
+    ```
+4. **Set up environment variables**:
+    ```sh
+    cp .env.example .env
+    php artisan key:generate
+    ```
+5. **Run the development server**:
+    ```sh
+    php artisan serve
+    npm run dev
+    ```
+
 ## Contributing
 
-I welcome contributions! Please read our contributing guidelines before submitting any changes or suggestions.
+I welcome contributions! Please read our contributing guidelines before you submit any changes or suggestions.
 
 
 
