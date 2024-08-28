@@ -39,7 +39,7 @@ To start with the platform, choose your role and follow the corresponding guidel
     - subscribe to your preferred course packages,
     - and start learning.
 
-## User Flow Overview
+## Web Flow Overview
 ![UserFLow](User-Flow.png)
 
 ## Database Schema
