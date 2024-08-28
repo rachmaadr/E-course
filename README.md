@@ -51,7 +51,7 @@ To start with the platform, choose your role and follow the corresponding guidel
 ## Student Class Detail Overview
 ![Detail Class](detailClass.png)
 
-## Getting Started
+## How to clone in your device
 
 1. **Clone the repository**:
     ```sh
